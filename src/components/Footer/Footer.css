@@ -130,6 +130,9 @@
 .footerRightSocialIcons{
     display: flex;
     margin-top: 20px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
+}
+.footerRightSocialIcons>*{
+    margin-left: 10px;
 }
