@@ -9,7 +9,17 @@
     display: flex;
     align-items: center;
 }
-
+.headerLeft>h1{
+    font-family: LibreBaskerville;
+    font-size: 2.625rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+}
 .headerRight{
     /* border: 1px solid red; */
     width: 60%;
