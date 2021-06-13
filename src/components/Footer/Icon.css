@@ -1,0 +1,9 @@
+.icon{
+    border-radius: 50%;
+    background-color: #ffffff;
+    display:grid;
+    place-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}

@@ -1,0 +1,47 @@
+.blogCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogCard>img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.blogCardContainer{
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogCardContainer>*{
+    margin: 10px 0;
+}
+.blogCardContainer>h3{
+    font-family: LibreBaskerville;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00dbd0;
+}
+.blogCardContainer>p{
+    font-family: LibreBaskerville;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+}
+.blogCardContainer>span{
+    width: 25%;
+    height: 1px;
+    background-color: #00dbd0;
+}

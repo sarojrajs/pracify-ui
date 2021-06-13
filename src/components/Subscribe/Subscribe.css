@@ -1,0 +1,77 @@
+.subscribe{
+    margin-top: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribeContainer>h1{
+    font-family: LibreBaskerville;
+    font-size: 2.25rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+    margin: 20px 0;
+}
+.subscribePara{
+    /* border: 1px solid black; */
+    width: 70%;
+}
+.subscribePara>p{
+    font-family: LibreBaskerville;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+}
+.subscribeForm{
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.subscribeForm>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 20px 5px;
+    font-family: LibreBaskerville;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #374b5c;
+}
+.subscribeForm>button{
+    padding: 1.313rem 2.844rem 1.5rem;
+    border-radius: 30px;
+    background-color: #00dbd0;
+    border: none;
+    cursor: pointer;
+    font-family: LibreBaskerville;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

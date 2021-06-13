@@ -1,0 +1,87 @@
+.midBannerPart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midBannerPart1Top{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.midBannerPart1Top>h2{
+    margin-top: 20px;
+    font-family: LibreBaskerville;
+  font-size: 2.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.midBannerPart1Top>p{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.midBannerImageCardRow{
+    margin: 40px 0;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midBannerTop2{
+    margin-top: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.midBannerTop2>h2{
+    font-family: LibreBaskerville;
+  font-size: 2.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.midBannerTop2>p{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+  margin-top: 20px;
+}
+.slider{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+.slider>div{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}

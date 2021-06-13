@@ -1,0 +1,40 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+.blogHeader>h1{
+    font-family: LibreBaskerville;
+  font-size: 2.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+  margin: 20px 0;
+}
+.blogHeader>p{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.blogCardRows{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}

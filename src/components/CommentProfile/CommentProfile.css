@@ -1,0 +1,58 @@
+.commentProfile{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment{
+    /* border: 1px solid black; */
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+.commentProfile>h1{
+    font-family: LibreBaskerville;
+    font-size: 1.625rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+}
+.comment>p{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.profilePic{
+    margin: 30px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.dots{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+.dots>span{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00dbd0;
+    border-radius: 50%;
+}
+.dots>span:first-child{
+    background-color: #00dbd0;
+}

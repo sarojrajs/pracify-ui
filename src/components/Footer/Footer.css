@@ -1,0 +1,135 @@
+.footer{
+    padding: 100px 50px 50px 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+
+}
+.footerLeftPara>p{
+    /* border: 1px solid black; */
+    font-family: LibreBaskerville;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 40px 0;
+    width: 70%;
+}
+.footerLeft>h4{
+    font-family: LibreBaskerville;
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.footerLeft>span{
+    width: 20%;
+    height: 1px;
+    background-color: #00dbd0;
+    margin-bottom: 5px;
+}
+.footerCenter{
+    margin-top:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+.footerCenter>h3{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footerCenter>span{
+    width: 10%;
+    height: 1px;
+    background-color: #00dbd0;
+}
+.footerCenterColumns{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column1>p{
+    font-family: LibreBaskerville;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 15px 50px 15px 0;
+}
+.column2>p{
+    font-family: LibreBaskerville;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 15px;
+}
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.footerRight>h3{
+    font-family: LibreBaskerville;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footerRight>span{
+    width: 30%;
+    height: 1px;
+    background-color: #00dbd0;
+}
+.socialIcon{
+    color: #374b5c;
+}
+.footerRightSocialIcons{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 100%;
+}

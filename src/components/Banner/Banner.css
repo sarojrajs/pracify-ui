@@ -1,0 +1,85 @@
+.banner{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.bannerLeft{
+    width: 50%;
+    height: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bannerLeftPart1>h2{
+    font-family: LibreBaskerville;
+    font-size: 2.25rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+}
+.bannerLeftPart1>h1{
+    font-family: LibreBaskerville;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.bannerLeftPart2>p{
+    font-family: LibreBaskerville;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.bannerLeftPart2{
+    width: 70%;
+}
+.bannerLeftPart3>button{
+    padding: 0.875rem 4rem 1rem 3rem;
+  border-radius: 10px;
+  background-color: #00dbd0;
+  border: none;
+  font-family: LibreBaskerville;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.bannerRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+
+}
+.bannerLogoContainer{
+    padding: 50px;
+    border: 2px solid #00dbd0;
+}
+.bannerFlower{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+
+}
